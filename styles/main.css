@@ -152,7 +152,7 @@ header {
   padding-top: 15vw;
   height: 100vh;
   width: 100%;
-  background:#2d3436 url("/images/header-bg.jpg") top/cover no-repeat;
+  background:#2d3436 url("../images/header-bg.jpg") top/cover no-repeat;
 }
 
 header h1 {

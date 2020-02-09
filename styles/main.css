@@ -535,4 +535,87 @@ header .button-for-order:hover::after {
   color: #f1c40f;
   text-shadow: 1px 1px black;
 }
+
+.where-find-us h6 {
+  font-size: 5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.where-find-us .where-find-us__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 30px;
+}
+
+.where-find-us .where-find-us__info .where-find-us__info__block {
+  width: 33.33%;
+  text-align: center;
+  border: 3px solid #111;
+  padding: 3%;
+  margin: 20px 1vw;
+}
+
+.where-find-us .where-find-us__info .where-find-us__info__block strong {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.where-find-us .where-find-us__info .where-find-us__info__block span {
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #000;
+  margin: 20px auto;
+}
+
+.where-find-us .where-find-us__info .where-find-us__info__block p {
+  font-size: 1.3em;
+}
+
+.where-find-us .where-find-us__map {
+  width: 100%;
+}
+
+.where-find-us .where-find-us__map iframe {
+  width: 100%;
+  height: 300px;
+}
+
+footer {
+  background-color: #222;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer ul li {
+  margin: 20px 10px;
+}
+
+footer ul li a i {
+  font-size: 2em;
+  color: white;
+}
+
+footer ul li a i:hover {
+  color: #f1c40f;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
 /*# sourceMappingURL=main.css.map */

@@ -128,8 +128,7 @@ header {
     padding-top: 15vw;
     height: 100vh;
     width: 100%;
-    background: #2d3436 url("../images/header-bg.jpg") top/cover no-repeat fixed;
-    
+    background: #2d3436 url("/images/header-bg.jpg") top/cover no-repeat fixed;
     h1 {
         color: white;
         font-family: 'Alfa Slab One', cursive;
@@ -277,7 +276,7 @@ header {
 //OUR-MASTERS
 .our-masters {
     padding-bottom: 50px;
-    background: #111 url('../images/maters_bg.jpg') top/cover no-repeat fixed;
+    background: #111 url('/images/maters_bg.jpg') top/cover no-repeat fixed;
     h3 {
         color: #fff;
         font-weight: bold;
@@ -448,3 +447,74 @@ header {
     }
 }
 //PRICES //  
+
+//WHERE-FIND-US
+.where-find-us {
+    h6 {
+        font-size: 5em;
+        font-weight: bold;
+        text-align: center;
+        margin: 50px 0;
+    }
+    .where-find-us__info {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+        .where-find-us__info__block {
+           width: 33.33%;
+           text-align: center;
+           border: 3px solid #111;
+           padding: 3%;
+           margin: 20px 1vw;
+           strong {
+               font-weight: bold;
+               font-size: 1.5em;
+           }
+           span {
+                display: block;
+                width: 50px;
+                height: 3px;
+                background-color: #000;
+                margin: 20px auto;
+           }
+           p {
+               font-size: 1.3em;
+           }
+        }
+    }
+    .where-find-us__map {
+        width: 100%;
+        iframe {
+            width: 100%;
+            height: 300px;
+        }
+    }
+}
+//WHERE-FIND-US // 
+
+//FOOTER
+footer {
+    background-color: #222;
+    ul {
+        display: flex;
+        justify-content: center;
+        li {
+            margin: 20px 10px;
+            a {
+                i {
+                    font-size: 2em;
+                    color: white;
+                }
+                i:hover {
+                    color: $yellow;
+                }
+            }
+        }
+    }
+    p {
+        color: white;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+//FOOTER //

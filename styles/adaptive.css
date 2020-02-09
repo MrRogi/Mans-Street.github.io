@@ -294,6 +294,7 @@
 @media screen and (max-width: 460px) {
     header {
         background-size: contain;
+        background-attachment: unset;
     }
     /*PRICES*/
     .prices .prices-wrapper .prices-text {

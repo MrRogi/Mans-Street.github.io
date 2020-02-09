@@ -131,7 +131,7 @@
     .prices .prices-wrapper .prices-text {
         width: 100%;
         height: auto;
-        background: #222 url("/images/prices-img.jpg") no-repeat top/cover fixed;
+        background: #222 url("../images/prices-img.jpg") no-repeat top/cover fixed;
     }
     .prices .prices-wrapper .prices-text span {
         border-color: white;

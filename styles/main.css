@@ -330,7 +330,7 @@ header .button-for-order:hover::after {
 
 .our-masters {
   padding-bottom: 50px;
-  background: #111 url("images/maters_bg.jpg") top/cover no-repeat fixed;
+  background: #111 url("../images/maters_bg.jpg") top/cover no-repeat fixed;
 }
 
 .our-masters h3 {

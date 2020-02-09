@@ -105,17 +105,29 @@
     }
     /*//OUR-MASTERS*/
 
+    /*GALLERY*/
+    .gallery h4 {
+        font-size: 1.8em;
+    }
+    /*//GALLERY/
+
     /*PRICES*/
     .prices .prices-wrapper .prices-text-wrapper .prices-name ul li,
     .prices .prices-wrapper .prices-text-wrapper .prices-price ul li {
         margin: 50px 0;
         font-size: 1.2em;
     }
+    .prices .prices-wrapper .prices-text h5{
+        font-size: 1.8em;
+     }
     /*//PRICES*/
 
     /*//WHERE-FIND-US*/
     .where-find-us .where-find-us__info .where-find-us__info__block {
         padding: 5% 1%;
+    }
+    .where-find-us h6 {
+        font-size: 1.8em;;
     }
     /*WHERE-FIND-US*/
 }
@@ -290,7 +302,7 @@
 }
 @media screen and (max-width: 510px) {
     header {
-        background: #2d3436 url("../images/header-bg.jpg") center/cover no-repeat fixed;
+        background: #2d3436 url("../images/header-bg.jpg") center/cover no-repeat;
     }
     /*HEADER-TOP*/
     .header-top .logo a span{

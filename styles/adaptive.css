@@ -292,6 +292,9 @@
      /*//PRICES*/
 }
 @media screen and (max-width: 460px) {
+    header {
+        background-size: contain;
+    }
     /*PRICES*/
     .prices .prices-wrapper .prices-text {
         padding: 10px 20px;

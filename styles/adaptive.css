@@ -293,8 +293,7 @@
 }
 @media screen and (max-width: 460px) {
     header {
-        background-size: auto;
-        background-attachment: unset;
+        background: #2d3436 url("/images/header-bg.jpg") center/cover no-repeat fixed;
     }
     /*PRICES*/
     .prices .prices-wrapper .prices-text {

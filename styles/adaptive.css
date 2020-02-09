@@ -1,0 +1,350 @@
+@media screen and (max-width: 1400px) {
+    /*OUR-MASTERS*/
+    .our-masters .masters-box-wrapper .master-box img {
+        height: 200px;
+    }
+     /*//OUR-MASTERS*/
+}
+@media screen and (max-width: 1300px) {
+     /*SERVICES*/
+    .services .services-items-wrapper .services-item .services-img img,
+    .services .services-items-wrapper .services-item .services-about {
+        height: 300px;
+    }
+    /*//SERVICES*/
+}
+@media screen and (max-width: 1120px) {
+    /*HEADER*/
+    header {
+        padding-top: 200px;
+    }
+    header h1 {
+        font-size: 8em;
+    }
+    /*//HEADER*/
+}
+@media screen and (max-width: 1080px) {
+    /*HEADER-TOP*/
+    .header-top {
+        flex-direction: column;
+        padding: 10px 20px;
+        height: auto;
+    }
+    .header-top .logo {
+        margin: 20px 0;
+    }
+    .header-top nav ul li {
+        margin-right: 30px;
+    }
+    .header-top nav {
+        
+    }
+    /*//HEADER-TOP*/
+
+    /*OUR-MASTERS*/
+    .our-masters h3 {
+        padding-bottom: 100px;
+    }
+    /*//OUR-MASTERS*/
+
+    /*PRICES*/
+    .prices .prices-wrapper .prices-text h5 {
+        font-size: 4em;
+    }
+    .prices .prices-wrapper .prices-text-wrapper {
+        padding-top: 0px;
+    }
+    .prices .prices-wrapper .prices-text-wrapper .prices-name ul li,
+    .prices .prices-wrapper .prices-text-wrapper .prices-price ul li {
+        margin: 30px 0;
+        font-size: 1.4em;
+    }
+    /*//PRICES*/
+}
+@media screen and (max-width: 950px) {
+    /*GALLERY*/
+    .gallery .gallery-wrapper {
+        width: 90%;
+    }
+    .gallery .gallery-wrapper .gallery-box a img {
+        min-width: 100px;
+        min-height: 100px;
+    }
+    /*//GALLERY*/
+}
+@media screen and (max-width: 900px) {
+    /*SERVICES*/
+    .services h2 {
+        font-size: 1.8em;
+    }
+    .services .services-items-wrapper .services-item .services-img img,
+    .services .services-items-wrapper .services-item .services-about {
+        height: 200px;
+    }
+    .services .services-items-wrapper .services-item .services-about span {
+        margin-bottom: 20px;
+    }
+    .prices .prices-wrapper .prices-text-wrapper .prices-name ul li,
+    .prices .prices-wrapper .prices-text-wrapper .prices-price ul li {
+        margin: 50px 0;
+    }
+    /*//SERVICES*/
+
+    /*OUR-MASTERS*/
+    .our-masters {
+        padding-top: 50px;
+    }
+    .our-masters h3 {
+        font-size: 1.8em;
+    }
+    /*//OUR-MASTERS*/
+
+    /*PRICES*/
+    .prices .prices-wrapper .prices-text-wrapper .prices-name ul li,
+    .prices .prices-wrapper .prices-text-wrapper .prices-price ul li {
+        margin: 20px 0;
+        font-size: 1.2em;
+    }
+    /*//PRICES*/
+}
+@media screen and (max-width: 780px) {
+    /*OUR-MASTERS*/
+    .our-masters .masters-box-wrapper .master-box img {
+        height: 150px;
+        margin-bottom: 15px;
+    }
+    .our-masters .masters-box-wrapper .master-box .name {
+        font-size: 1.5em;
+    }
+    .our-masters .masters-box-wrapper .master-box .position {
+        letter-spacing: normal;
+    }
+    .our-masters .masters-box-wrapper .master-box ul li a i {
+        font-size: 1.5em;
+    }
+    /*//OUR-MASTERS*/
+
+    /*PRICES*/
+    .prices .prices-wrapper .prices-img {
+        display: none;
+    }
+    .prices .prices-wrapper .prices-text {
+        width: 100%;
+        height: auto;
+        background: #222 url("/images/prices-img.jpg") no-repeat top/cover fixed;
+    }
+    .prices .prices-wrapper .prices-text span {
+        border-color: white;
+        margin: 30px auto;
+    }
+    .prices .prices-wrapper .prices-text h5 {
+        text-shadow: 3px 3px black;
+        text-align: center;
+    }
+    .prices .prices-wrapper .prices-text p {
+        text-align: center;
+    }
+    .prices .prices-wrapper .prices-text h5,
+    .prices .prices-wrapper .prices-text span,
+    .prices .prices-wrapper .prices-text p,
+    .prices .prices-wrapper .prices-text-wrapper .prices-name ul li {
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+    .prices .prices-wrapper .prices-text-wrapper .prices-price ul li {
+        text-shadow: 1px 1px black;
+    }
+    .prices .prices-wrapper .prices-text-wrapper .prices-name ul li,
+    .prices .prices-wrapper .prices-text-wrapper .prices-price ul li {
+        font-size: 2em;
+    }
+    .prices .prices-wrapper .prices-text button {
+        display: block;
+        margin: 20px auto 20px auto;
+        border: 3px solid #f1c40f;
+        color: #f1c40f;
+    }
+    /*//PRICES*/
+}
+@media screen and (max-width: 680px) {
+    /*OUR-MASTERS*/
+    .our-masters .masters-box-wrapper {
+        flex-wrap: wrap;
+    }
+    .our-masters .masters-box-wrapper .master-box {
+        width: 40%;
+    }
+    /*//OUR-MASTERS*/
+}
+@media screen and (max-width: 630px) {
+    /*HEADER-TOP*/
+    .header-top {
+        background-color: transparent;
+    }
+    .burger-wrapper .burger { 
+        display: block;
+    }
+    .header-top .logo a span{
+        font-size: 4em;
+    }
+    .header-top .logo a p {
+        font-size: 1.5em;
+    }
+    .header-top nav {
+        display: block;
+    }
+    .header-top nav ul {
+        background-color: rgba(0,0,0,.5);
+        padding: 40px 100px;
+        flex-direction: column;
+        text-align: center;
+        display: none;
+    }
+    .header-top nav ul li {
+        font-size: 1.3em;
+        margin: 10px 0;
+    }
+    .header-top nav ul li:nth-child(1n) {
+        margin-right: 0;
+    }
+    /*//HEADER-TOP*/
+
+    /*HEADER*/
+    header h1 {
+        display: none;
+    }
+    header .button-for-order {
+        margin-top: 100px;;
+    }
+    /*//HEADER*/
+
+    /*SERVICES*/
+    .services .services-items-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .services .services-items-wrapper .services-item {
+        width: 100%;
+        display: flex;
+    }
+    .services .services-items-wrapper .services-img img,
+    .services .services-items-wrapper .services-about {
+        height: 300px;
+    }
+    .services .services-items-wrapper .services-about {
+        flex: 1;
+    }
+    .services .services-items-wrapper .services-img {
+        flex: 1;
+    }
+    /*SERVICES*/
+
+    /*OUR-MASTERS*/
+    .our-masters {
+        padding-top: 0px;
+    }
+    .our-masters h3 {
+        padding-bottom: 50px;
+    }
+    /*//OUR-MASTERS*/ 
+}
+@media screen and (max-width: 630px) {
+    /*PRICES*/
+    .prices .prices-wrapper .prices-text .prices-text-wrapper .prices-name ul li,
+    .prices .prices-wrapper .prices-text .prices-text-wrapper .prices-price ul li {
+        font-size: 1.7em;
+    }
+    /*//PRICES*/
+}
+@media screen and (max-width: 510px) {
+    /*HEADER-TOP*/
+    .header-top .logo a span{
+        font-size: 2em;
+    }
+    /*//HEADER-TOP*/
+
+    /*OUR-MASTERS*/
+    .our-masters {
+        height: auto;
+    }
+    .our-masters .masters-box-wrapper {
+        
+    }
+    .our-masters .masters-box-wrapper .master-box {
+        width: 100%;
+    }
+    .our-masters .masters-box-wrapper .master-box img {
+        height: 300px;
+    }
+    /*//OUR-MASTERS*/
+
+    /*GALLERY*/
+    .gallery .gallery-wrapper .gallery-box {
+        width: 25%;
+    }
+    /*//GALLERY*/
+
+     /*PRICES*/
+     .prices .prices-wrapper .prices-text .prices-text-wrapper .prices-name ul li,
+     .prices .prices-wrapper .prices-text .prices-text-wrapper .prices-price ul li {
+         font-size: 1.5em;
+     }
+     /*//PRICES*/
+}
+@media screen and (max-width: 460px) {
+    /*PRICES*/
+    .prices .prices-wrapper .prices-text {
+        padding: 10px 20px;
+    }
+    .prices .prices-wrapper .prices-text .prices-text-wrapper .prices-name ul li,
+    .prices .prices-wrapper .prices-text .prices-text-wrapper .prices-price ul li {
+        font-size: 1.3em;
+    }
+    /*//PRICES*/
+}
+@media screen and (max-width: 360px) {
+    /*HEADER*/
+    header .button-for-order {
+        margin-top: 100px;
+        width: 200px;
+    }
+    /*//HEADER*/
+
+    /*SERVICES*/
+    .services h2 {
+        font-size: 1.5em;
+    }
+    .services .services-items-wrapper .services-item .services-about span {
+        margin-bottom: 10px;
+        font-size: 1.5em;
+    }
+    .services .services-items-wrapper .services-item .services-about p {
+        font-size: 1em;
+    }
+    /*SERVICES*/
+
+    /*OUR-MASTERS*/
+    .our-masters .masters-box-wrapper .master-box img {
+        height: 200px;
+    }
+    /*//OUR-MASTERS*/
+
+    /*GALLERY*/
+    .gallery .gallery-wrapper .gallery-box {
+        width: 30%;
+    }
+    .gallery h4 {
+        font-size: 3em;
+    }
+    /*//GALLERY*/
+
+    /*PRICES*/
+    .prices .prices-wrapper .prices-text {
+        padding: 10px 10px;
+    }
+    .prices .prices-wrapper .prices-text .prices-text-wrapper .prices-name ul li,
+    .prices .prices-wrapper .prices-text .prices-text-wrapper .prices-price ul li {
+        font-size: 1.2em;
+    }
+    /*//PRICES*/
+}
